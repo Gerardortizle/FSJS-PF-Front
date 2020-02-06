@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #e9ecf4;
+    color: #000000;
+    font-family: 'Pacifico', sans-serif;
+}
+
+/*Estilos del contenedor de todos los elementos de la página*/
+.contenedor {
+    width: 90%; /*Ancho del 90%*/
+    max-width: 1000px; /*Ancho máximo que puede tener es de 1000pixeles*/
+    margin: 20px auto; /*El margen es de 20 pixeles arriba y abajo y auto para centrarlo */ 
+    display: grid;/*Cajas que usaremos*/
+    grid-gap: 20px;/*espaciado entre cada una de las cajas*/
+    grid-template-columns: repeat(3, 1fr);/*Número de columnas en la página*/
+    grid-template-rows: repeat(4,auto);/*Número de renglones en la página*/
+
+    /*grid-template-areas: "caja1 caja1 caja1";*/
+
+}
+
+/*Se definen los estilos para las cajas o contenedores*/
+.contenedor > div, 
+.contenedor .caja1,
+.contenedor .contenido,
+.contenedor .sidebar,
+.contenedor .widget-1,
+.contenedor .widget-2,
+
+.contenedor .footer {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.contenedor > div {
+    font-family: 'Pacifico';
+}
+
+/*Se defininen los estilos para la caja1 o encabezado*/
+.contenedor .caja1 {
+    background: #12003E;
+    color: white;
+    grid-column-start: 1;/*Para indicar donde queremos que inicie*/
+    grid-column-end: -1;/*Para indicar que abarque todo el espacio disponible*/
+    position: sticky; /*Se establece esta propiedad para impedir que desaparezca esta caja*/
+    top: 0px;
+    text-align: center;
+    height: 60px;
+    /*grid-area: caja1;*/
+    
+}
+
+.contenedor .contenido {
+    grid-column: span 2; /*La caja de contenido solo abarcará 2 columnas*/
+}
+
+.contenedor .sidebar {
+    grid-column: 3 / 4; /*Se le especifica al sidebar que comience en la fila 3 y 4*/
+    background: navajowhite;
+    text-align: center;
+    display: inline;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100px;
+    grid-row: 2 / 4;/*Para decirle que abarque desde el renglon 2 hasta el 4*/
+
+}
+
+ /*Se definen los estilos para los widgets 1 y 2*/
+.contenedor .widget-1,
+.contenedor .widget-2 {
+
+    font-family: 'Pacifico';
+    background: #55758a;
+    color: white;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+    button:hover {
+    font-family: cursive;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    background-color: #3d5afe;
+    }
+   
+
+
+ /*Se definen los estilos para el footer */
+.contenedor .footer {
+    background: #12203e;
+    color: white;
+    grid-column: span 3;
+    font-family: sans-serif;
+}
+
+
+@media screen and (max-width: 768px) {
+    .contenedor .contenido {
+        grid-column: 1 / -1;
+    }
+    .contenedor .sidebar {
+        grid-column: 1 / -1;
+    }
+    .contenedor .widget-1{
+        grid-column: span 2;
+    }
+}
+    

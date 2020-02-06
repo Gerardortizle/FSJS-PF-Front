@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    .row {
+                color: #b9180d; /*selector por id (verde)*/
+            }
+
+    .container {
+            font-family: 'Courier Prime', monospace;
+            padding: 5px;
+            margin: 10px;
+            border: 2px solid black;
+            color: #b9180d;
+            background-color:rgb(237, 250, 250);
+        }
+
+    button {
+            color: white;
+            background-color: #3d5afe;
+            height: 40px;
+        }    
+    
+    .grid    {
+           width: 50px;
+           height: 150px;
+           display:grid;
+           position:relative;
+           top: 10;
+           left: 50px;
+    }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <h1 style="font-size:35px;text-align:center;">Mundo de Suculentas.com</h1>
+    </div>
+
+    <div class="container">
+        
+        <h2 style="text-align:center;">Formato de Pedido del Cliente</h2>
+        <div style="height: 1px; width: 30px;">
+    </div>
+    
+    <div class="row">
+    <form action="." oninput="range_control_value.value = range_control.valueAsNumber">
+    
+        Nombre: <input type="text" name="name_control" autofocus required />
+        <br />
+        <br />
+        Correo Electrónico: <input type="email" name="email_control" required />
+        <br />
+        <br />
+        Teléfono: <input type="tel" name="tel_control" />
+        <br />
+        <br />
+        Fecha del evento: <input type="date" name="date_control" />
+        <br />
+        <br />
+        Clave del producto: 
+        <select>   <!--Menú desplegable utilizando un combo box-->
+            <option value="Suculentas de sobra">Suculentas de sombra</option> 
+            <option value="Cactaceas">Cactaceas</option>
+            <option value="Violetas">Violetas</option>
+            <option value="Plantas de hornato">Plantas de hornato</option>
+        </select>  <!-- Fin del select -->
+        <br />
+        <br />
+    </div> 
+
+        <div class="grid">
+            <img src="sampleimage.jpg" alt="Imagen" />
+
+            <img src="sampleimage.jpg" alt="Imagen" />
+
+            <img src="sampleimage.jpg" alt="Imagen" />
+
+            <img src="sampleimage.jpg" alt="Imagen" />
+        </div>
+
+        <br />
+        <br />
+        Cantidad: <input type="text" name="name_control" autofocus required />
+        <!--Color Favorito: <input type="color" name="color_control" /> -->
+        <br />
+        <br />
+        <button>Someter Pedido</button>
+        </h4>
+        </form>
+</body>
+</html>
+
+
+
+
