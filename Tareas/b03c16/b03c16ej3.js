@@ -18,6 +18,18 @@ function messageClick() {
 
     //tu código va aquí vvv
 
+    resultados = (term1.value === term2.value)+ " Es el resultado de la comparacion x === <br>";
+    resultados += (term1.value > term2.value)+  " Es el resultado de la comparación mayor que <br>";
+    resultados += (term1.value < term2.value)+  " Es el resultado de la comparación menor que <br>";
+    resultados += (term1.value != term2.value)+ " Es el resultado de la comparación si es diferente <br>";
+    resultados += (term1.value !== term2.value)+ " Es el resultado de la comparación diferente con coercion";
+
+    //if (term1.value === term2.value) {
+    //    resultados = "True";
+    //    return true
+    //}
+
+
     //tu código va aquí ^^^
 
     divresultados.innerHTML = resultados;

@@ -12,16 +12,16 @@
 
 console.log("si esto se imprime, ya no hay errores de compilación");
 
-null = “Humberto González Santos”;
+let nombre = "Humberto González Santos";
 
 //slice() nos sirve para obtener un pedazo de un string
 //lee la documentación:
 //https://www.w3schools.com/jsref/jsref_slice_string.asp
-const primernombre = primernombre.slice(,12);
+let primernombre = nombre.slice(0,8);
 
-const primernombre = "Nombre: "
+//const primernombre = "Nombre: "
 
-primernombre = "El primer nombre es González";
+primernombre = ("El primer nombre es " +primernombre);
 
 console.log(primernombre);
 
