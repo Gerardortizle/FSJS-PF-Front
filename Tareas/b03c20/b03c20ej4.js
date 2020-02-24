@@ -26,6 +26,8 @@ const coche = ["llantas", "rines", "alas", "velas", "caldera", "parabrisas", "mo
 //Devuelve sólo aquellos elementos de este arreglo que contengan la letra A (mayúscula o minúscula)
 const palabras = ["Gokú", "Vegeta", "Pikoro", "Bulma", "Gohan", "Yamcha", "Shen Long", "Freezer", "Ten Shin Han", "Androide 18"];
 
+Math.PI
+
 //tu código va aquí ^^^
 
 //eof

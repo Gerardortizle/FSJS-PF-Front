@@ -14,6 +14,7 @@ let test;
 
 //tu código va aquí vvv
 
+//Convertidos los 3 valores a Number,String y Boolean
 test = parseInt(v1);
 console.log(test+" es del tipo "+typeof(test));
 
@@ -21,10 +22,11 @@ test = v1.toString();
 console.log(test+" es del tipo "+typeof(test));
 
 test = Boolean(v1);
-console.log(test+" es del tipo "+typeof(test));
+console.log(test+" es del tipo "+typeof(test) +"<br>");
 
-console.log( );
+//Hasta aqui se convirtió v1
 
+//Conversion de v2
 test = parseInt(v2);
 console.log(test+" es del tipo "+typeof(test));
 
@@ -32,9 +34,11 @@ test = v2.toString();
 console.log(test+" es del tipo "+typeof(test));
 
 test = Boolean(v2);
-console.log(test+" es del tipo "+typeof(test));
+console.log(test+" es del tipo "+typeof(test) +"<br>");
 
-console.log( ); 
+//Hasta aqui se convirtió v2
+
+//conversión de v3
 
 test = parseInt(v3);
 console.log(test+" es del tipo "+typeof(test));
@@ -43,9 +47,9 @@ test = v3.toString();
 console.log(test+" es del tipo "+typeof(test));
 
 test = Boolean(v3);
-console.log(test+" es del tipo "+typeof(test));
+console.log(test+" es del tipo "+typeof(test) +"<br>");
 
-//console.log ("Integer :" +v1);
+//Hasta aqui se convirtió v3
 
 //tu código va aquí ^^^
 

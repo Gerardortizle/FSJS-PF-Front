@@ -6,7 +6,10 @@
 */
 
 //tu código va aquí vvv
-
+const nombre = ["Mariana", "Gaby", "Toño", "Gerardo", "QUique", "Pepe", "Axel"]
+for(let i of nombre){
+    console.log("Compañero : "  +i);
+}
 //tu código va aquí ^^^
 
 //eof

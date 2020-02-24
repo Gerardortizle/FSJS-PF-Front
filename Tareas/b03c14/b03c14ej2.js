@@ -10,26 +10,26 @@
 
 //tu código va aquí vvv
     let nombre1 = "Gaby"
-    let edad1 = "30"
+    let edad1 = 30
     let Windows1 = false        
 
     let nombre2 = "Mariana"
-    let edad2 = "25"
+    let edad2 = 25
     let Windows2 = true 
 
     let nombre3 = "Antonio"
-    let edad3 = "30"
+    let edad3 = 30
     let Windows3 = true 
 
     let nombre4 = "Pepe"
-    let edad4 = "26"
+    let edad4 = 26
     let Windows4 = false 
 
     let nombre5 = "Axel"
-    let edad5 = "30"
+    let edad5 = 30
     let Windows5 = false 
 
-    console.log(`Compañer@ ${nombre1}`);
+    console.log("La compañera " +nombre1);
     console.log(`Tiene ${edad1} años`);
     console.log(`Usa Windows? ${Windows1}`);
     console.log(`   `);

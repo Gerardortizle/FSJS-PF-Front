@@ -10,9 +10,10 @@
 
 function messageClick() {
     //tu código va aquí vvv
-      const nombre = prompt("dame tu nombre", ); 
+      alert("Este es el inicio del programa");
+      const nombre = prompt("dame tu nombre", ); //Prompt sirve para recibir valores desde js
     
-      alert (nombre);
+      alert ("Hola  " +nombre+", como te va");// Envia mensajes a la página, aunque no se ve muy bonito
       
     //tu código va aquí ^^^
 }
