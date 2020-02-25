@@ -16,6 +16,10 @@
 let resultado;
 
 resultado = 84 + 96 - 25 * 79 ** 2 * 59 % 69 + 21 / 53;
+resultado *= 100;
+resultado = Math.trunc(resultado);
+resultado /= 100;
+
 
 console.log ("El resultado es " +resultado);
 //tu código va aquí ^^^

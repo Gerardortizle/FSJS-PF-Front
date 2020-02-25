@@ -16,15 +16,15 @@ function getRandomNumber(min, max) {
 // Se obtiene el numero aleatorio pasandole a la función los valores de 0 y 100 //
 // Se hace 10 veces para obtener 10 valores aleatorios //
 let a = getRandomNumber(0, 100);
-let b = getRandomNumber(0, 100);
-let c = getRandomNumber(0, 100);
-let d = getRandomNumber(0, 100);
-let e = getRandomNumber(0, 100);
-let f = getRandomNumber(0, 100);
-let g = getRandomNumber(0, 100);
-let h = getRandomNumber(0, 100);
-let i = getRandomNumber(0, 100);
-let j = getRandomNumber(0, 100);
+let b = getRandomNumber(1, 100);
+let c = getRandomNumber(2, 100);
+let d = getRandomNumber(3, 100);
+let e = getRandomNumber(4, 100);
+let f = getRandomNumber(5, 100);
+let g = getRandomNumber(6, 100);
+let h = getRandomNumber(7, 100);
+let i = getRandomNumber(8, 100);
+let j = getRandomNumber(9, 100);
 
 
 // En cada uno de los console se hace la concatenación y la coerción y además se calcula el módulo//

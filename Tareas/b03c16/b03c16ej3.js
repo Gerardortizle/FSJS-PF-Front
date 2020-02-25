@@ -16,7 +16,7 @@ function messageClick() {
     //usa term1.value y term2.value para obtener lo que escribes en los input.
     //el string resultados debe describir todas las comparaciones que realices.
 
-    //tu código va aquí vvv
+    //tu código va aquí vvv 
 
     resultados = (term1.value === term2.value)+ " Es el resultado de la comparacion x === <br>";
     resultados += (term1.value > term2.value)+  " Es el resultado de la comparación mayor que <br>";

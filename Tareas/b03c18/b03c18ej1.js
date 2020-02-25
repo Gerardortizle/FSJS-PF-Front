@@ -23,7 +23,7 @@ function messageClick() {
     //tu código va aquí vvv
 
     if (a === b) {
-        imprime = "a y b son iguales"
+        imprime = "a y b son iguales"   // son iguales
     }else if (a > b) {
         imprime = "a es mayor";
     }else if(a < b) {

@@ -84,4 +84,5 @@ console.log( "Boolean(\" \"): ------------- "   + (Boolean(" "))            );
 //Regresa True porque true hace una coerción y los convierte a number como el anterior
 console.log( "Boolean(''): -------------- "     + (Boolean(''))             );
 
+
 //eof

@@ -9,4 +9,11 @@ let a;
 (a = 0) || (a = "") || (a = 10) || (a = undefined) || (a = 20) || (a = "hola");
 console.log(a);
 
+//(a = 0) || (a = "")
+// (a = 0)
+// (a = 10) || (a = undefined)
+// (a = 10)
+// (a = 20) || (a="hola")
+// (a = 20)
+
 //eof

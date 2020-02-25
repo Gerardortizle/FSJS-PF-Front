@@ -16,10 +16,13 @@ function getRandomNumber(min, max) {
 
 let a = getRandomNumber(1000000000, 9999999999) / 1000000000;
 
+//El valor resultante de a lo guarda en b multiplicandolo x 100000 para quitarle los decimales
 let b = a * 100000000;
 
+//Lo redondea para quitarle la ultima cifra
 let c = Math.round(b);
 
+//Lo divide entre 1000000 para conservar los decimales
 let d = c / 100000000;
 
 console.log(a);

@@ -40,7 +40,7 @@ function messageClick() {
         imprime = "no es una calificacion valida"
     }
 
-    /*switch (calif.value){
+    /*switch (calif.value){ 
         case "0":
             imprime = "vete a turismo";
             break;

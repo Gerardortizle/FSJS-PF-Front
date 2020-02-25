@@ -20,7 +20,8 @@ console.log("hola " + (a + true) + " adiós");
 // * (a++)*(a--) //Segunda multiplicación en la expresión
 // *   1  * 1 =   1
 // * (--a) = 0  // Queda la suma del decremento de la expresión
-// *   1 - 1 = 0
+// *   1 - 1 = 
+//
 //
 
 //eof
