@@ -6,6 +6,7 @@
 */
 
 //tu código va aquí vvv
+// Utilizando un ciclo for para imprimir
 
 for(let i=1 ; i<=20 ; i++) {
     console.log("Número = " +i);

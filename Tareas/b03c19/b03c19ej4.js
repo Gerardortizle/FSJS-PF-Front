@@ -9,11 +9,20 @@
     Imprimir en pantalla el resultado.
 */
 
+let num = document.getElementById("term1");
+let res = document.getElementById("divresultados");
+
+
 const op1 = 10;
 const op2 = 20;
 const signo = "+";
 
+
+
 //tu código va aquí vvv
+
+document.getElementById("divresultados").innerHTML = +op1 +signo + op2;
+
 
 //tu código va aquí ^^^
 

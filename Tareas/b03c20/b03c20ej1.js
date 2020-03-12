@@ -7,6 +7,7 @@
 
 //tu código va aquí vvv
 const nombre = ["Mariana", "Gaby", "Toño", "Gerardo", "QUique", "Pepe", "Axel"]
+//Utilizo el ciclo For of
 for(let i of nombre){
     console.log("Compañero : "  +i);
 }

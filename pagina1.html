@@ -1,22 +1,61 @@
 <!DOCTYPE html>
-    <html lang="en">
+    <html lang="esn">
         <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Suculentas.com</title>
+        <!--meta http-equiv="X-UA-Compatible" content="ie=edge"-->
 
         <!--Fuente de google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
         
         <!--Enlace al archivo de fuentes-->
         <link rel="stylesheet" href="estilos.css">
-        <title>Suculentas.com</title>
-        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet">
+      
         </head>
 
-        <body>
+        <body id="lodeljs">
+            <header>
+              <nav class="navbar navbar-expand-lg">
+                <div class=container>
+                    <a class="navbar-brand" href="/"><img src="image1.jpg" class="logo-brand"> Suculentas.com</a>
+                    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <!--span class="navbar-toggler-icon"></span-->
+                        <i class="icon ion-md-menu"></i>
+                    </button>
+    
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" id="Inicio">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" id="Catalogo">Catálogo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" id="Acerca">Acerca de</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="precios.html" id="Precios">Precios</a>
+                          </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="pagina.html" id="Pedidos">Pedidos</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+    
+
+            </header>    
+        
             <!--Trabajé con clases en vez de etiquetas porque mejor me resultó para el manejo de los estilos css-->
             <div class ="contenedor"> <!--Contenedor de toda la página-->
                 <header class="caja1"> <!--Contenedor de la caja1 o encabezado-->
-                    <h2>Todo sobre Suculentas.com</h2>
+                    <h2>Todo sobre Suculentas</h2>
                 </header>
                 <main class="contenido"> <!--Contenedor de la caja 2 o contenido-->
                     <h1>Contenido</h1>
@@ -29,15 +68,24 @@
                         <!--Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.-->
                     </p>
                 </main>
-                <aside class="sidebar"><!--Fuera del main pero como elemento hermano del main-->
+                
+                <aside class="sidebar"> <!--Fuera del main pero como elemento hermano del main-->
                     <h3>Nuestro Catálogo</h3><br>
                     <h5>Variedad de Suculentas</h5>
                     <img src="image1.jpg" width="200" height="150" alt="Imagen" /><br>
-                    <h5>Cactaceas</h5>
+                    <h5>Cactáceas</h5>
                     <img src="image2.jpg" width="200" height="150" alt="Imagen" /><br>
                     <h5>Suculentas de colores</h5>
                     <img src="image3.jpg" width="200" height="150" alt="Imagen" />
-                </aside>
+                    <!--div class="card" style="width: 18rem;">
+                      <img src="image1.jpg" class="card-img-top" alt="Imagen">
+                      <div class="card-body">
+                        <h6 class="card-text">Some quick example text</h6>
+                      </div>
+                    </div-->
+
+                </aside> 
+
                 <div class="widget-1"><!--Se agregan otras dos cajas para el manejo los botones-->
                     <button>Pedidos</button>
                 </div>

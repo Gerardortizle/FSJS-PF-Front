@@ -9,11 +9,29 @@
 //concatena el contenido de este arreglo en un string para crear la letra de una canción
 const rola = ["we","will","we","will","rock","you"];
 
+let letra = "";
+
+for(let i of rola){
+    letra = letra +i +" ";
+}
+console.log(letra)
+
 //inicializa el siguiente arreglo con valores null
 const basura = [3456, 5674567, 564784567, 97695, 3456345, 685468, 452356];
 
+/*for(let i of basura){
+    basura[i]= null
+}
+console.log(basura)*/
+
 //Obtén sólo el alias de esta persona
 const nombre = "Roberto 'Chespirito' Gómez";
+ini = 9,
+fin = 19,
+
+subcadena = nombre.substring(ini, fin)
+
+console.log(subcadena);
 
 //El siguiente arreglo debe contener sólo los números del 1 al 10 en orden.
 //Agrega y borra lo que haga falta.

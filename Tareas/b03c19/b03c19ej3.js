@@ -21,6 +21,7 @@ function messageClick() {
     let Mult = "";
     const validate = Math.round(parseInt(n));
 
+    //Tabla de multiplicar
     
     if(validate <= 10){
         for(i = 1; i <= 10; i++){let b = (n*i);

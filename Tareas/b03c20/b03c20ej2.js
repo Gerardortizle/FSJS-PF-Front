@@ -10,10 +10,16 @@ const a = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","
 
 //tu código va aquí vvv
 
-for(let i = 0; i < a.length; i++){
+/*for(let i = 0; i < a.length; i++){
     if(a[i*2]){
         console.log(a[i*2]);
       }
+}*/
+
+for(let i of a){
+    if(a[i*2]){
+    console.log(i);
+    }
 }
 
 //tu código va aquí ^^^

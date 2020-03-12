@@ -8,6 +8,14 @@
 
 //tu código va aquí vvv
 
+const persona = {
+    nombre: "José",
+    apellido: "Perez",
+    num     :    1234,
+};
+
+console.log(Object.getOwnPropertyDescriptors(persona));
+
 //tu código va aquí ^^^
 
 //eof
