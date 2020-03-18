@@ -10,7 +10,7 @@ function getRandomNumber(min, max) {
     return Math.floor( Math.random() * (max-min+1) ) + min;
 }
 
-//getRandomNumber(1000000000, 9999999999) / 1000000000;
+//getRandomNumber( 1000000000, 9999999999) / 1000000000;
 
 //tu código va aquí vvv
 

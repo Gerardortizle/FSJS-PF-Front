@@ -14,7 +14,7 @@ function getRandomNumber(min, max) {
 //tu código va aquí vvv
 
 // Se obtiene el numero aleatorio pasandole a la función los valores de 0 y 100 //
-// Se hace 10 veces para obtener 10 valores aleatorios //
+// Se hace 10 veces para obtener 10 valores aleatorios  //
 let a = getRandomNumber(0, 100);
 let b = getRandomNumber(1, 100);
 let c = getRandomNumber(2, 100);
